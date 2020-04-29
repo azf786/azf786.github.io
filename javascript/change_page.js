@@ -1,23 +1,32 @@
-// direct browser to top right away
-if (window.location.hash)
-    scroll(0,0);
-// takes care of some browsers issue
-setTimeout(function(){scroll(0,0);},1);
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-$(function(){
-//your current click function
-    $('.scroll').on('click',function(e){
-        e.preventDefault();
-        $('html,body').animate({
-            scrollTop:$($(this).attr('href')).offset().top + 'px'
-        },1000,'swing');
-    });
+// Get the header
+var header = document.getElementById("myHeader");
 
-// if we have anchor on the url (calling from other page)
-    if(window.location.hash){
-        // smooth scroll to the anchor id
-        $('html,body').animate({
-            scrollTop:$(window.location.hash).offset().top + 'px'
-        },1000,'swing');
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
     }
-});
+}
+function betisier() {
+    document.getElementById("lemon").style.visibility = "hidden";
+    document.getElementById("lemon").style.height = "0";
+    document.getElementById("betisier").style.height = "90vh";
+    document.getElementById("betisier").style.visibility = "visible";
+    document.getElementById("betisier").scrollIntoView();
+}
+
+function lemon() {
+    document.getElementById("betisier").style.visibility = "hidden";
+    document.getElementById("betisier").style.height = "0";
+    document.getElementById("lemon").style.height = "90vh";
+    document.getElementById("lemon").style.visibility = "visible";
+    document.getElementById("lemon").scrollIntoView();
+}

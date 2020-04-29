@@ -1,18 +1,29 @@
 <!doctype html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Portfolio - Azfar MEHMOOD</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
 
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
 
-<header>
+
+
+
+
+
+
+<header class="header" id="myHeader">
     <div id="head">
         <div id="menu">
-            <div class="item"><a class="bg_slider" href="">Qui suis-je</a></div>
+            <div class="item" id="qui" ><a class="bg_slider"  href="#contenu_2">Qui suis-je</a></div>
             <div class="item"><a class="bg_slider" href="">Projets réalisés</a></div>
             <div class="item"><a class="bg_slider" href="">Contact</a></div>
         </div>
@@ -25,6 +36,136 @@
     </div>
 
 </header>
+
+
+<div id="contenu">
+    <div id = "contenu_1">
+        <div id="outerLayer1">
+            <div id="outerLayer2">
+                <div id="profile_photo">
+                    <img src="images/profile.png">
+                </div>
+            </div>
+        </div>
+        <div id="infoBref">
+            <div id="nom">
+                <h1 class="frame">Azfar Mehmood</h1>
+            </div>
+            <div id="info">
+                <p>Mon portfolio</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contenu_2">
+        <div id="logo">
+            <img src="images/information.png">
+        </div>
+
+    </div>
+
+    <div id="contenu_3">
+        <div class="row">
+            <div class="collumn">
+                <div class="row">
+                    <div class="collumn">
+                        <a href="#betisier" ><div class="container small box box-1" onclick="betisier()">
+                            <a href="#contenu_2"><img src="images/projets/betisier.JPG" alt="Avatar" class="image large" style="width:100%"></a>
+                            <div class="middle">
+                                <div class="title"> Développement Web</div>
+                                <div class="project_name">Bétisier</div>
+                                <div class="tags">
+                                    <div class="tag"> HTML </div>
+                                    <div class="tag"> CSS</div>
+                                    <div class="tag"> PHP </div>
+                                    <div class="tag"> MySql </div>
+                                </div>
+                            </div>
+                        </div></a>
+                        <div class="container small box box-1" onclick="lemon()">
+                            <a href="#contenu_2"><img src="images/projets/lemon.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
+                            <div class="middle">
+                                <div class="title"> Développement Web</div>
+                                <div class="project_name">Bétisier</div>
+                                <div class="tags">
+                                    <div class="tag"> HTML </div>
+                                    <div class="tag"> CSS</div>
+                                    <div class="tag"> PHP </div>
+                                    <div class="tag"> MySql </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container long box box-1">
+                        <a href="#contenu_2"><img src="images/projets/vimo.jpg" alt="Avatar" class="image large"  style="width:100%"></a>
+                        <div class="middle">
+                            <div class="title"> Développement Web</div>
+                            <div class="project_name">Bétisier</div>
+                            <div class="tags">
+                                <div class="tag"> HTML </div>
+                                <div class="tag"> CSS</div>
+                                <div class="tag"> PHP </div>
+                                <div class="tag"> MySql </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container large box box-1">
+                    <a href="#contenu_2"><img src="images/projets/wroom.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
+                    <div class="middle">
+                        <div class="title"> Développement Web</div>
+                        <div class="project_name">Bétisier</div>
+                        <div class="tags">
+                            <div class="tag"> HTML </div>
+                            <div class="tag"> CSS</div>
+                            <div class="tag"> PHP </div>
+                            <div class="tag"> MySql </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn">
+                <div class="container normal box box-1">
+                    <a href="#contenu_2"><img src="images/projets/carsat.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
+                    <div class="middle">
+                        <div class="title"> Développement Web</div>
+                        <div class="project_name">Bétisier</div>
+                        <div class="tags">
+                            <div class="tag"> HTML </div>
+                            <div class="tag"> CSS</div>
+                            <div class="tag"> PHP </div>
+                            <div class="tag"> MySql </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container normal box box-1">
+                    <a href="#contenu_2"><img src="images/projets/wroom_admin.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
+                    <div class="middle">
+                        <div class="title"> Développement Web</div>
+                        <div class="project_name">Bétisier</div>
+                        <div class="tags">
+                            <div class="tag"> HTML </div>
+                            <div class="tag"> CSS</div>
+                            <div class="tag"> PHP </div>
+                            <div class="tag"> MySql </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contenu_4" id="betisier">
+        betisier
+    </div>
+    <div class="contenu_4" id="lemon">
+        lemon
+    </div>
+
+</div>
 
 </body>
 
