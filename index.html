@@ -21,13 +21,13 @@
 
 
 <header class="header" id="myHeader">
-    <div id="head">
-        <div id="menu">
-            <div class="item" id="qui" ><a class="bg_slider"  href="#contenu_2">Qui suis-je</a></div>
-            <div class="item"><a class="bg_slider" href="smooth.html">Projets réalisés</a></div>
-            <div class="item"><a class="bg_slider" href="">Contact</a></div>
+    <div class="head">
+        <div class="menu">
+            <div class="item" class="qui" ><a class="bg_slider"  href="#contenu_2">Qui suis-je</a></div>
+            <div class="item"><a class="bg_slider" href="#contenu_3">Projets réalisés</a></div>
+            <div class="item"><a class="bg_slider" href="#contenu_5">Contact</a></div>
         </div>
-        <div id="name">
+        <div class="name">
             <h1>Azfar MEHMOOD</h1>
         </div>
     </div>
@@ -43,7 +43,7 @@
         <div id="outerLayer1">
             <div id="outerLayer2">
                 <div id="profile_photo">
-                    <img src="images/profile.png">
+                    <img src="images/profile.png" >
                 </div>
             </div>
         </div>
@@ -58,46 +58,105 @@
     </div>
 
     <div id="contenu_2">
+        <div id="entete">
+            A propos de moi
+        </div>
         <div id="logo">
-            <img src="images/information.png">
+            <img src="images/information.png" height="400px">
         </div>
 
+        <div id="titre">
+            Mes Compétences
+        </div>
+
+        <div id="comptences">
+            <img src="images/competence/html.png">
+            <img src="images/competence/css.png">
+            <img src="images/competence/js.png">
+            <img src="images/competence/php.png">
+            <img src="images/competence/node.png">
+            <img src="images/competence/java.png">
+            <img src="images/competence/android.png">
+            <img src="images/competence/c.png">
+
+        </div>
     </div>
 
     <div id="contenu_3">
-        <div class="row">
-            <div class="collumn">
-                <div class="row">
-                    <div class="collumn">
-                        <a href="#betisier" ><div class="container small box box-1" onclick="betisier()">
-                            <a href="#contenu_2"><img src="images/projets/betisier.JPG" alt="Avatar" class="image large" style="width:100%"></a>
-                            <div class="middle">
-                                <div class="title"> Développement Web</div>
-                                <div class="project_name">Bétisier</div>
-                                <div class="tags">
-                                    <div class="tag"> HTML </div>
-                                    <div class="tag"> CSS</div>
-                                    <div class="tag"> PHP </div>
-                                    <div class="tag"> MySql </div>
+        <div class="row" id="portfolio">
+
+            <div class="row">
+                <div class="collumn">
+                    <div class="row">
+                        <div class="collumn">
+                            <a href="#betisier" ><div class="container small box box-1" onclick="betisier()">
+                                <a href="#contenu_2"><img src="images/projets/betisier/betisier.JPG" alt="Avatar" class="image large" style="width:100%"></a>
+                                <div class="middle">
+                                    <div class="title"> Développement Web</div>
+                                    <div class="project_name">Bétisier</div>
+                                    <div class="tags">
+                                        <div class="tag"> HTML </div>
+                                        <div class="tag"> CSS</div>
+                                        <div class="tag"> PHP </div>
+                                        <div class="tag"> MySql </div>
+                                    </div>
+                                </div>
+                            </div></a>
+                            <div class="container small box box-1" onclick="lemon()">
+                                <a href="#contenu_2"><img src="images/projets/lemon/lemon.JPG" alt="Avatar" class="image large" style="width:100%"></a>
+                                <div class="middle">
+                                    <div class="title"> Développement Web</div>
+                                    <div class="project_name">Lemon</div>
+                                    <div class="tags">
+                                        <div class="tag"> HTML </div>
+                                        <div class="tag"> CSS</div>
+                                        <div class="tag"> JS </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div></a>
-                        <div class="container small box box-1" onclick="lemon()">
-                            <a href="#contenu_2"><img src="images/projets/lemon.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
+                        </div>
+                        <div class="container long box box-1" onclick="vimo()">
+                            <a href="#contenu_2"><img src="images/projets/vimo/vimo.jpg" alt="Avatar" class="image large" style="width:100%"></a>
                             <div class="middle">
-                                <div class="title"> Développement Web</div>
-                                <div class="project_name">Bétisier</div>
+                                <div class="title"> Application Mobile</div>
+                                <div class="project_name">VIMO</div>
                                 <div class="tags">
-                                    <div class="tag"> HTML </div>
-                                    <div class="tag"> CSS</div>
-                                    <div class="tag"> PHP </div>
-                                    <div class="tag"> MySql </div>
+                                    <div class="tag"> JAVA </div>
+                                    <div class="tag"> AndroidStudio</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container long box box-1">
-                        <a href="#contenu_2"><img src="images/projets/vimo.jpg" alt="Avatar" class="image large"  style="width:100%"></a>
+                    <div class="container large box box-1"  onclick="loop()">
+                        <a href="#contenu_2"><img src="images/projets/wroom/wroom.png" alt="Avatar" class="image large" style="width:100%"></a>
+                        <div class="middle">
+                            <div class="title"> Développement Web</div>
+                            <div class="project_name">Wroom</div>
+                            <div class="tags">
+                                <div class="tag"> HTML </div>
+                                <div class="tag"> CSS</div>
+                                <div class="tag"> Node.js </div>
+                                <div class="tag"> MySql </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collumn">
+                    <div class="container normal box box-1" onclick="carsat()">
+                        <a href="#contenu_2"><img src="images/projets/carsat/carsat.JPG" alt="Avatar" class="image large" style="width:100%"></a>
+                        <div class="middle">
+                            <div class="title"> Développement Logiciel</div>
+                            <div class="project_name">Carsat</div>
+                            <div class="tags">
+                                <div class="tag"> Java </div>
+                                <div class="tag"> JavaFX</div>
+                                <div class="tag"> iText </div>
+                                <div class="tag"> JavaMail </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container normal box box-1" onclick="gImage()">
+                        <a href="#contenu_2"><img src="images/projets/wroom_admin.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
                         <div class="middle">
                             <div class="title"> Développement Web</div>
                             <div class="project_name">Bétisier</div>
@@ -109,63 +168,244 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container large box box-1">
-                    <a href="#contenu_2"><img src="images/projets/wroom.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
-                    <div class="middle">
-                        <div class="title"> Développement Web</div>
-                        <div class="project_name">Bétisier</div>
-                        <div class="tags">
-                            <div class="tag"> HTML </div>
-                            <div class="tag"> CSS</div>
-                            <div class="tag"> PHP </div>
-                            <div class="tag"> MySql </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collumn">
-                <div class="container normal box box-1">
-                    <a href="#contenu_2"><img src="images/projets/carsat.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
-                    <div class="middle">
-                        <div class="title"> Développement Web</div>
-                        <div class="project_name">Bétisier</div>
-                        <div class="tags">
-                            <div class="tag"> HTML </div>
-                            <div class="tag"> CSS</div>
-                            <div class="tag"> PHP </div>
-                            <div class="tag"> MySql </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container normal box box-1">
-                    <a href="#contenu_2"><img src="images/projets/wroom_admin.JPG" alt="Avatar" class="image large"  style="width:100%"></a>
-                    <div class="middle">
-                        <div class="title"> Développement Web</div>
-                        <div class="project_name">Bétisier</div>
-                        <div class="tags">
-                            <div class="tag"> HTML </div>
-                            <div class="tag"> CSS</div>
-                            <div class="tag"> PHP </div>
-                            <div class="tag"> MySql </div>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
-
+            <div class="collumn" id="ecriture">
+                <div>P</div>
+                <div>O</div>
+                <div>R</div>
+                <div>T</div>
+                <div>F</div>
+                <div>O</div>
+                <div>L</div>
+                <div>I</div>
+                <div>O</div>
+            </div>
         </div>
+
 
     </div>
 
     <div class="contenu_4" id="betisier">
-        betisier
+        <div class="collumn">
+            <div class="collumn">
+                <div class="titre"> Projet Bétisier</div>
+                <div class="row corps_information" >
+                    <div class="slideShow" >
+                        <img class="mySlides betisier" src="images/projets/betisier/betisier.JPG" width="700px" height="">
+                        <img class="mySlides betisier" src="images/projets/betisier/betisier1.JPG" width="700px" height="">
+                        <img class="mySlides betisier" src="images/projets/betisier/betisier2.JPG" width="700px" height="">
+                        <img class="mySlides betisier" src="images/projets/betisier/betisier3.JPG" width="700px" height="">
+                    </div>
+
+
+                    <div class="info_projet">
+                        <p>Ce projet à éré réalisé durant le toisième semestre de ma formation à l'IUT</p>
+                        <p>Il s'ajit d'un site client-serveur. Les requêtes sont réalisés en PHP</p>
+                        <p>L'utilisateur doit se conncecter avec ses identifiants. Il peut ensuite consulter ajouter ou modifier la bases de données</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lienGit">
+                <div class="collumn">
+                    <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                    <div><a href="https://github.com/azf786/betisierphp-master" target="_blank">Le code est disponible sur mon GitHub</a></div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
     <div class="contenu_4" id="lemon">
-        lemon
+        <div class="collumn">
+            <div class="titre"> Projet Lemon</div>
+            <div class="row corps_information" >
+                <div class="collumn">
+
+                    <div class="slideShow"  >
+                        <img class="mySlides lemon" src="images/projets/lemon/lemon.JPG" width="700px">
+                        <img class="mySlides lemon" src="images/projets/lemon/lemon1.JPG" width="700px" height="">
+                        <img class="mySlides lemon"  src="images/projets/lemon/lemon2.JPG" width="700px" height="">
+                    </div>
+
+                    <div class="lienGit">
+                        <div class="collumn">
+                            <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                            <div><a href="https://github.com/azf786/betisierphp-master" target="_blank">Le code est disponible sur mon GitHub</a></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="info_projet">
+                    <p>Ce projet à éré réalisé durant le deuxième semestre de ma formation à l'IUT</p>
+                    <p>Il s'ajit d'un site static réalisé en HTML, CSS et JavaScript </p>
+                    <p>Elle est responsive donc elle s'adapte à la taille de l'écran</p>
+
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div class="contenu_4" id="vimo">
+        <div class="collumn">
+            <div class="collumn">
+                <div class="titre"> Jeu VIMO</div>
+                <div class="row corps_information" >
+                    <div class="slideShow" >
+                        <img class="mySlides vimo" src="images/projets/vimo/vimo.jpg" width="200px" height="350px">
+                        <img class="mySlides vimo" src="images/projets/vimo/vimo1.jpg" width="200px" height="350px">
+                        <img class="mySlides vimo" src="images/projets/vimo/vimo2.jpg" width="200px" height="350px">
+                        <img class="mySlides vimo" src="images/projets/vimo/vimo3.jpg" width="200px" height="350px">
+                    </div>
+
+
+                    <div class="info_projet">
+                        <p>Ce projet à été réalisé durant le quatrième semestre de ma formation à l'IUT</p>
+                        <p>Il sagit d'un jeu pour android. Il à été réalisé en Java en utilisant AndroidStudio</p>
+                        <p>Inspiré du jeux classique tamagochi, VIMO permet au joueurs de posseder un monstre qu'il peut nourir. Il gagne de l'argent en jouant à des minis jeux. </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lienGit">
+                <div class="collumn">
+                    <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                    <div><a href="https://github.com/ilyesb36/AndroidApp" target="_blank">Le code est disponible sur mon GitHub</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="contenu_4" id="loop">
+        <div class="collumn">
+            <div class="collumn">
+                <div class="titre"> Projet Wroom</div>
+                <div class="row corps_information" >
+                    <div class="slideShow" >
+                        <img class="mySlides wroom" src="images/projets/wroom/wroom1.JPG" width="700px">
+                        <img class="mySlides wroom" src="images/projets/wroom/wroom2.JPG" width="700px">
+                        <img class="mySlides wroom" src="images/projets/wroom/wroom3.JPG" width="700px">
+                        <img class="mySlides wroom" src="images/projets/wroom/wroom4.JPG" width="700px">
+                        <img class="mySlides wroom" src="images/projets/wroom/wroom5.JPG" width="700px">
+                    </div>
+
+
+                    <div class="info_projet">
+                        <p>Ce projet à été réalisé durant le quatrième semestre de ma formation à l'IUT</p>
+                        <p>C'est un site client-serveur. Les requêtes sont réalisés à travers les fonction de node.js</p>
+                        <p> L'utilisateur peut consulter l'ensyclopédie de la F1 enrégisterer dans la base de données. Du côté administrateur, on doit se connecter et on peut ajouter dans la base de données de nouvelles informations.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lienGit">
+                <div class="collumn">
+                    <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                    <div><a href="https://github.com/azf786/MEHMOOD_XU_Wroom" target="_blank">Le code est disponible sur mon GitHub</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contenu_4" id="carsat">
+        <div class="collumn">
+            <div class="collumn">
+                <div class="titre"> Projet Carsat</div>
+                <div class="row corps_information" >
+                    <div class="slideShow" >
+                        <img class="mySlides carsat" src="images/projets/carsat/carsat.JPG" width="700px" height="350px">
+                        <img class="mySlides carsat" src="images/projets/carsat/carsat1.JPG" width="700px" height="350px">
+                        <img class="mySlides carsat" src="images/projets/carsat/carsat2.JPG" width="700px" height="350px">
+                    </div>
+
+
+                    <div class="info_projet">
+                        <p>Ce projet à été réalisé durant la deuxième année de ma formation à l'IUT</p>
+                        <p>C'est un logiciel pour la société Carat. Il à été realisé en Java </p>
+                        <p>Il permet au employé de réaliser les documents nécéssaire pour leurs déplacement et de les envoyer au responsable.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="lienGit">
+                <div class="collumn">
+                    <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                    <div><a href="https://github.com/azf786/MEHMOOD_XU_Wroom" target="_blank">Le code est disponible sur mon GitHub</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contenu_5">
+        <div class="collumn">
+            <div class="laisser">
+                Laisser un message
+            </div>
+            <form>
+                <input name="name" type="text" class="feedback-input" placeholder="Nom" />
+                <input name="email" type="text" class="feedback-input" placeholder="Objet" />
+                <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+                <input type="submit" value="Envoyer"/>
+            </form>
+        </div>
+
+    </div>
+
+    <div id="contenu_6">
+
+
+    </div>
+
+
+
+
+
 </div>
+
+<footer class="flex-rw">
+
+    <div class="heat">
+        <div class="head">
+            <div class="name">
+                <h1>Azfar MEHMOOD</h1>
+            </div>
+            <div class="menu">
+                <div class="item" class="qui" ><a   href="#contenu_2">Qui suis-je</a></div>
+                <div class="item"><a  href="smooth.html">Projets réalisés</a></div>
+                <div class="item"><a  href="">Contact</a></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+      RETROUVER <span class="footer-social-small">moi</span> SUR
+      </span>
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+      <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-github"></i></a>
+      </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+        <div class="footer-bottom-wrapper">
+            <i class="fa fa-copyright" role="copyright">
+
+            </i> 2020 Azfar Mehmood <address class="footer-address" role="company address">Limoges, FR</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+        </div>
+    </section>
+</footer>
 
 </body>
 

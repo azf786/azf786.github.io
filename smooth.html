@@ -1,65 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .container {
-            position: relative;
-            width: 50%;
-        }
+<div class="contenu_4" id="wrooom">
+    <div class="collumn">
+        <div class="collumn">
+            <div class="titre"> Projet Wroom</div>
+            <div class="row corps_information" >
+                <div class="slideShow" >
+                    <img class="mySlides" src="images/projets/wroom/wroom1.JPG" width="700px">
+                    <img class="mySlides" src="images/projets/wroom/wroom2.JPG" width="700px">
+                    <img class="mySlides" src="images/projets/wroom/wroom3.JPG" width="700px">
+                    <img class="mySlides" src="images/projets/wroom/wroom4.JPG" width="700px">
+                    <img class="mySlides" src="images/projets/wroom/wroom5.JPG" width="700px">
+                </div>
 
-        .image {
-            opacity: 1;
-            display: block;
-            width: 100%;
-            height: auto;
-            transition: .5s ease;
-            backface-visibility: hidden;
-        }
 
-        .middle {
-            transition: .5s ease;
-            opacity: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            text-align: center;
-        }
+                <div class="info_projet">
+                    <p>Ce projet à été réalisé durant le quatrième semestre de ma formation à l'IUT</p>
+                    <p>C'est un site client-serveur. Les requêtes sont réalisés à travers les fonction de node.js</p>
+                    <p> L'utilisateur peut consulter l'ensyclopédie de la F1 enrégisterer dans la base de données. Du côté administrateur, on doit se connecter et on peut ajouter dans la base de données de nouvelles informations.</p>
 
-        .container:hover .image {
-            opacity: 0.3;
-        }
+                </div>
+            </div>
+        </div>
+        <div class="lienGit">
+            <div class="collumn">
+                <div style="margin-bottom: 10px;"><img src="images/pngwave.png" width="50px"></div>
+                <div><a href="https://github.com/azf786/MEHMOOD_XU_Wroom" target="_blank">Le code est disponible sur mon GitHub</a></div>
+            </div>
 
-        .container:hover .middle {
-            opacity: 1;
-        }
-
-        .text {
-            background-color: #4CAF50;
-            color: white;
-            font-size: 16px;
-            padding: 16px 32px;
-        }
-    </style>
-</head>
-<body>
-
-<h2>Opacity with Box</h2>
-<p>Hover over the image to see the effect.</p>
-
-<div class="container">
-    <img src="images/projets/betisier.JPG" alt="Avatar" class="image" style="width:100%">
-    <div class="middle">
-        <div class="text">John Doe</div>
+        </div>
     </div>
 </div>
-<div class="container">
-    <img src="images/projets/betisier.JPG" alt="Avatar" class="image" style="width:100%">
-    <div class="middle">
-        <div class="text">John middile Doe</div>
-    </div>
-</div>
-
-</body>
