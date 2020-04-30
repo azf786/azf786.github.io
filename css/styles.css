@@ -617,6 +617,10 @@ header {
     margin-bottom: 20px;
 }
 
+#logo img {
+    height: 50vh;
+}
+
 #comptences img{
     width: 70px;
     height: 70px;
@@ -804,13 +808,17 @@ header {
     margin-top: 10px;
 }
 .slideShow {
-    width: 700px;
-    height: 350px;
+    width: 40vw;
+    height: 35vh;
     margin: 60px;
     margin-bottom: 20px;
     border: white solid 5px;
 }
 
+.slideShow img {
+    width: 40vw;
+    height: 35vh;
+}
 #vimo .slideShow {
     width: 200px;
     height: 350px;
@@ -845,11 +853,11 @@ header {
 }
 
 .info_projet p{
-    margin: 60px;
+    margin: 7vh;
     margin-left: 10px;
 
     font-family: myFirstFont;
-    font-size: 1.5em;
+    font-size: 3vh;
     color: white;
 }
 
@@ -879,7 +887,7 @@ header {
 
 
 #contenu_5{
-    height: 60vh;
+    height: 70vh;
     background: rgb(13,4,164);
     background: linear-gradient(90deg, rgba(13,4,164,1) 0%, rgba(0,212,255,1) 100%);
     border: white 10px solid;
@@ -927,7 +935,7 @@ form { max-width:420px; margin:50px auto; }
 .feedback-input:focus { border:2px solid white; }
 
 textarea {
-    height: 150px;
+    height: 15vh;
     line-height: 150%;
     resize:vertical;
     color: #FFFFFF;
