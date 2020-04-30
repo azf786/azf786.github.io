@@ -821,8 +821,12 @@ header {
 }
 #vimo .slideShow {
     width: 200px;
-    height: 350px;
+    height: 35vh;
     margin-left: 20vw;
+}
+#vimoImage img{
+    width: 200px;
+    height: 35vh;
 }
 
 .mySlides {
